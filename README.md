@@ -6,9 +6,9 @@
 
 主页网址：https://nickyoung22.github.io/chn-ui
 
-npm地址：
+npm 地址：https://www.npmjs.com/package/@chenhaonan22/chn-ui
 
-github地址：https://github.com/nickyoung22/chn-ui
+github 地址：https://github.com/nickyoung22/chn-ui
 
 ---
 
@@ -27,10 +27,10 @@ npm run dev
 ## 构建
 
 ```shell
-npm run build 
+npm run build
 ```
 
-## 发布npm包
+## 发布 npm 包
 
 ```shell
 cd src
@@ -53,4 +53,3 @@ npm config set registry http://registry.npm.taobao.org
 ## 自动化发布
 
 ......
-
