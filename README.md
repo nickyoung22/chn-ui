@@ -1,16 +1,20 @@
 # chn-ui
 
-一个`vue3`组件库
+> 一个`vue3`组件库
+>
+> 这是 组件库的开发 +文档构建 项目
 
-主页网址：
+主页网址：https://nickyoung22.github.io/chn-ui
 
-npm地址:
+npm地址：
+
+github地址：https://github.com/nickyoung22/chn-ui
 
 ---
 
 ## 在项目中使用
 
-... 
+详见：https://github.com/nickyoung22/chn-ui/tree/main/src#readme
 
 ## 开发
 
@@ -26,7 +30,7 @@ npm run dev
 npm run build 
 ```
 
-## 发布
+## 发布npm包
 
 ```shell
 cd src
@@ -42,5 +46,11 @@ npm publish --access public
 npm config set registry http://registry.npm.taobao.org
 ```
 
+## 构建组件库文档
 
+......
+
+## 自动化发布
+
+......
 

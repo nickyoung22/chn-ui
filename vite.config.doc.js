@@ -17,10 +17,8 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: path.resolve(__dirname, './src/components/index.js'),
-      name: 'MyLib',
       formats: ['es'],
-      // the proper extensions will be added
-      fileName: 'my-lib'
+      fileName: 'chn-ui.min'
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
