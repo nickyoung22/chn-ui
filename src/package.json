@@ -1,0 +1,43 @@
+{
+  "name": "@chenhaonan22/chn-ui",
+  "version": "1.0.2",
+  "description": "A Vue 3 Component Library",
+  "private": false,
+  "sideEffects": [
+    "dist/style.css"
+  ],
+  "author": "chn",
+  "keywords": [
+    "@chn/chn-ui",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "homepage": "https://github.com/nickyoung22",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickyoung22"
+  },
+  "files": [
+    "dist",
+    "components",
+    "README.md",
+    "package.json"
+  ],
+  "type": "module",
+  "main": "components/index.js",
+  "exports": {
+    ".": {
+      "import": "./components/index.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
