@@ -13,3 +13,6 @@ const installer = {
   }
 }
 export default installer
+
+// resolver (unplugin-vue-components插件用)
+export { ChnUiResolver } from './resolver.js'

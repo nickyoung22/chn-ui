@@ -2,13 +2,24 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
+// 类似webpack-bundle-analyzer打包分析插件
+import { visualizer } from 'rollup-plugin-visualizer'
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    // https://github.com/btd/rollup-plugin-visualizer
+    visualizer({
+      gzipSize: false,
+      brotliSize: false,
 
-  server: {
-    port: 5175
-  },
+      open: false,
+
+      emitFile: true, // 生成到dist文件夹下
+      filename: '打包体积分析.html' //分析图生成的文件名
+    })
+  ],
 
   // 库模式
   // https://cn.vitejs.dev/guide/build.html#library-mode
