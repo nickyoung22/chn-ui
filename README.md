@@ -2,7 +2,7 @@
 
 > 一个`vue3`组件库
 >
-> 这是 组件库的开发 +文档构建 项目
+> 这是 **组件库的开发 +文档构建** 项目
 
 主页网址：https://nickyoung22.github.io/chn-ui
 
@@ -53,3 +53,10 @@ npm config set registry http://registry.npm.taobao.org
 ## 自动化发布
 
 ......
+
+## Todo
+
+**组件库样式系统设计**
+
+暗黑模式、自定义主题
+
